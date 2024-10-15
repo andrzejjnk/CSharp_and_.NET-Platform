@@ -1,0 +1,43 @@
+// Zadziałał tylko plik .dll
+
+// Metadata version: v4.0.30319
+.assembly extern System.Runtime
+{
+  .publickeytoken = (B0 3F 5F 7F 11 D5 0A 3A )                         // .?_....:
+  .ver 8:0:0:0
+}
+.assembly extern System.Console
+
+
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+
+
+.method private hidebysig static void  '<Main>$'(string[] args) cil managed
+{
+  .entrypoint
+  // Code size       12 (0xc)
+  .maxstack  8
+  IL_0000:  ldstr      "Hello, World!"
+  IL_0005:  call       void [System.Console]System.Console::WriteLine(string)
+  IL_000a:  nop
+  IL_000b:  ret
+} // end of method Program::'<Main>$'
+
+
+=============================================
+Opis operacji:
+.method private hidebysig static void  '<Main>$'(string[] args) cil managed
+{
+  .entrypoint // Zaznacza punkt wejścia aplikacji. To jest miejsce, w którym wykonanie programu się zaczyna.
+  
+  // Code size       12 (0xc) // Rozmiar kodu IL wynosi 12 bajtów (0xc w systemie szesnastkowym).
+  .maxstack  8 // Maksymalna liczba elementów na stosie dozwolona podczas wykonywania tej metody to 8.
+  
+  IL_0000:  ldstr      "Hello, World!" // Ładowanie stałej string "Hello, World!" na stos.
+  IL_0005:  call       void [System.Console]System.Console::WriteLine(string) // Wywołanie metody WriteLine z klasy Console, aby wypisać string na konsolę.
+  
+  IL_000a:  nop // No operation - instrukcja, która nic nie robi. Można jej użyć dla celów synchronizacji lub jako punkt kontrolny.
+  
+  IL_000b:  ret // Zakończenie metody i powrót do wywołującego.
+} // end of method Program::'<Main>$' // Koniec definicji metody Main w klasie Program.

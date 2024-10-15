@@ -1,0 +1,14 @@
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\bin\Debug\net8.0\Andrzej.exe
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\bin\Debug\net8.0\Andrzej.deps.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\bin\Debug\net8.0\Andrzej.runtimeconfig.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\bin\Debug\net8.0\Andrzej.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\bin\Debug\net8.0\Andrzej.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\refint\Andrzej.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\Andrzej.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Andrzej\Andrzej\obj\Debug\net8.0\ref\Andrzej.dll

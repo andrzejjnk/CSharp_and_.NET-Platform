@@ -1,0 +1,14 @@
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\bin\Debug\net8.0\Aplikacja1.exe
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\bin\Debug\net8.0\Aplikacja1.deps.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\bin\Debug\net8.0\Aplikacja1.runtimeconfig.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\bin\Debug\net8.0\Aplikacja1.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\bin\Debug\net8.0\Aplikacja1.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\refint\Aplikacja1.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\Aplikacja1.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab1\Aplikacja1\Aplikacja1\obj\Debug\net8.0\ref\Aplikacja1.dll
