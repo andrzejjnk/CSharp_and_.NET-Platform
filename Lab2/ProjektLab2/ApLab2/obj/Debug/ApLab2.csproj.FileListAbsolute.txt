@@ -1,0 +1,10 @@
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\bin\Debug\ApLab2.exe.config
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\bin\Debug\ApLab2.exe
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\bin\Debug\ApLab2.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\bin\Debug\ClassLibrary1.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\bin\Debug\ClassLibrary1.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\obj\Debug\ApLab2.csproj.AssemblyReference.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\obj\Debug\ApLab2.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\obj\Debug\ApLab2.csproj.Up2Date
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\obj\Debug\ApLab2.exe
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab2\ProjektLab2\ApLab2\obj\Debug\ApLab2.pdb

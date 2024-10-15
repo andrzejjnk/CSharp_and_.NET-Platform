@@ -1,0 +1,397 @@
+=================================================================================
+Andrzej Janik - Laboratorium nr 2
+=================================================================================
+1. Ćwiczenie nr 1
+1.10:
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// Ogólne informacje o zestawie są kontrolowane poprzez następujący 
+// zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
+// powiązane z zestawem.
+[assembly: AssemblyTitle("ApLab2")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ApLab2")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Ustawienie elementu ComVisible na wartość false sprawia, że typy w tym zestawie są niewidoczne
+// dla składników COM. Jeśli potrzebny jest dostęp do typu w tym zestawie z
+// COM, ustaw wartość true dla atrybutu ComVisible tego typu.
+[assembly: ComVisible(false)]
+
+// Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
+[assembly: Guid("5ddb9c63-fe14-4c32-b84c-9e71b1b67eb5")]
+
+// Informacje o wersji zestawu zawierają następujące cztery wartości:
+//
+//      Wersja główna
+//      Wersja pomocnicza
+//      Numer kompilacji
+//      Poprawka
+//
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+
+2. Ćwiczenie nr2
+2.7:
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly ClassLibrary1
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- The following custom attribute is added automatically, do not uncomment -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 0D 43 6C 61 73 73 4C 69 62 72 61 72 79 31   // ...ClassLibrary1
+                                                                                              00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 0D 43 6C 61 73 73 4C 69 62 72 61 72 79 31   // ...ClassLibrary1
+                                                                                                00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = ( 01 00 12 43 6F 70 79 72 69 67 68 74 20 C2 A9 20   // ...Copyright .. 
+                                                                                                  20 32 30 32 34 00 00 )                            //  2024..
+  .custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 33 63 34 36 35 64 31 37 2D 38 61 62 32   // ..$3c465d17-8ab2
+                                                                                                  2D 34 38 34 63 2D 61 38 35 62 2D 31 61 34 35 35   // -484c-a85b-1a455
+                                                                                                  66 62 62 32 63 31 31 00 00 )                      // fbb2c11..
+  .custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 1C 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+                                                                                                        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 37 2E 32 01   // ,Version=v4.7.2.
+                                                                                                        00 54 0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73   // .T..FrameworkDis
+                                                                                                        70 6C 61 79 4E 61 6D 65 14 2E 4E 45 54 20 46 72   // playName..NET Fr
+                                                                                                        61 6D 65 77 6F 72 6B 20 34 2E 37 2E 32 )          // amework 4.7.2
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module ClassLibrary1.dll
+// MVID: {B7145D72-C5E7-4C91-A991-A6766F148264}
+.imagebase 0x10000000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000001    //  ILONLY
+// Image base: 0x08BF0000
+
+2.12:
+Plik AssemblyInfo.cs jest już obecne w bibliotece w folderze Properties, więc nie ma potrzeby dodawać nowego pliku.
+
+2.14:
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly extern ClassLibrary1
+{
+  .ver 1:0:0:0
+}
+.assembly ApLab2
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- The following custom attribute is added automatically, do not uncomment -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 06 41 70 4C 61 62 32 00 00 )                // ...ApLab2..
+  .custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 06 41 70 4C 61 62 32 00 00 )                // ...ApLab2..
+  .custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = ( 01 00 12 43 6F 70 79 72 69 67 68 74 20 C2 A9 20   // ...Copyright .. 
+                                                                                                  20 32 30 32 34 00 00 )                            //  2024..
+  .custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 35 64 64 62 39 63 36 33 2D 66 65 31 34   // ..$5ddb9c63-fe14
+                                                                                                  2D 34 63 33 32 2D 62 38 34 63 2D 39 65 37 31 62   // -4c32-b84c-9e71b
+                                                                                                  31 62 36 37 65 62 35 00 00 )                      // 1b67eb5..
+  .custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 1C 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+                                                                                                        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 37 2E 32 01   // ,Version=v4.7.2.
+                                                                                                        00 54 0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73   // .T..FrameworkDis
+                                                                                                        70 6C 61 79 4E 61 6D 65 14 2E 4E 45 54 20 46 72   // playName..NET Fr
+                                                                                                        61 6D 65 77 6F 72 6B 20 34 2E 37 2E 32 )          // amework 4.7.2
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module ApLab2.exe
+// MVID: {BB106C10-486B-4200-9691-C83DA19804C0}
+.imagebase 0x00400000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00020003    //  ILONLY 32BITREQUIRED
+// Image base: 0x08BF0000
+
+Biblioteka do zespołu głównego została zamieszczona za pomocą zawołania:
+.assembly extern ClassLibrary1
+{
+  .ver 1:0:0:0
+}
+Dodatkowo została wypisana wersja biblioteki czyli 1:0:0:0
+
+3. Ćwiczenie nr 3
+3.6:
+Po wywołaniu obu komend w terminalu pojawia się następujący komunikat:
+ClassLibrary1.dll does not represent a strongly named assembly
+
+3.10:
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly ClassLibrary1
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- The following custom attribute is added automatically, do not uncomment -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [mscorlib]System.Reflection.AssemblyDelaySignAttribute::.ctor(bool) = ( 01 00 01 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyKeyFileAttribute::.ctor(string) = ( 01 00 0C 2E 5C 70 75 62 6C 69 63 2E 73 6E 6B 00   // ....\public.snk.
+                                                                                                00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 0D 43 6C 61 73 73 4C 69 62 72 61 72 79 31   // ...ClassLibrary1
+                                                                                              00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 0D 43 6C 61 73 73 4C 69 62 72 61 72 79 31   // ...ClassLibrary1
+                                                                                                00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = ( 01 00 12 43 6F 70 79 72 69 67 68 74 20 C2 A9 20   // ...Copyright .. 
+                                                                                                  20 32 30 32 34 00 00 )                            //  2024..
+  .custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 33 63 34 36 35 64 31 37 2D 38 61 62 32   // ..$3c465d17-8ab2
+                                                                                                  2D 34 38 34 63 2D 61 38 35 62 2D 31 61 34 35 35   // -484c-a85b-1a455
+                                                                                                  66 62 62 32 63 31 31 00 00 )                      // fbb2c11..
+  .custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 1C 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+                                                                                                        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 37 2E 32 01   // ,Version=v4.7.2.
+                                                                                                        00 54 0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73   // .T..FrameworkDis
+                                                                                                        70 6C 61 79 4E 61 6D 65 14 2E 4E 45 54 20 46 72   // playName..NET Fr
+                                                                                                        61 6D 65 77 6F 72 6B 20 34 2E 37 2E 32 )          // amework 4.7.2
+  .publickey = (00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00   // .$..............
+                00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00   // .$..RSA1........
+                81 46 6A D1 15 A3 09 0B E8 9C 63 FA 80 3E 9D BB   // .Fj.......c..>..
+                5D 90 26 C0 2B A5 87 25 FE 81 43 EB E3 33 A9 09   // ].&.+..%..C..3..
+                BD 19 F7 23 AB EF B8 D8 BF 5E 9C F3 CD 34 DA FC   // ...#.....^...4..
+                ED D8 3C AD 18 72 C3 E0 94 04 BC 19 77 22 EB 88   // ..<..r......w"..
+                37 CA AE 1A 9F AE F3 7C 7E 0E EB DD 88 C3 C5 E7   // 7......|~.......
+                EA F6 ED FD D2 35 A4 5D 79 67 5F 59 D9 68 A9 26   // .....5.]yg_Y.h.&
+                46 6E 02 F1 FF E4 32 C8 BC EC 0E 84 B8 57 FA F1   // Fn....2......W..
+                5E A9 24 25 D7 6E 82 DC 9C 22 AB 3E E4 F0 52 C5 ) // ^.$%.n...".>..R.
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module ClassLibrary1.dll
+// MVID: {BC84F32F-B08B-4853-9A83-8A83FFD21294}
+.imagebase 0x10000000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000001    //  ILONLY
+// Image base: 0x086E0000
+
+Został dodane następujące fragmenty:
+  .custom instance void [mscorlib]System.Reflection.AssemblyDelaySignAttribute::.ctor(bool) = ( 01 00 01 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyKeyFileAttribute::.ctor(string) = ( 01 00 0C 2E 5C 70 75 62 6C 69 63 2E 73 6E 6B 00   // ....\public.snk.
+                                                                                                00 )
+
+  .publickey = (00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00   // .$..............
+                00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00   // .$..RSA1........
+                81 46 6A D1 15 A3 09 0B E8 9C 63 FA 80 3E 9D BB   // .Fj.......c..>..
+                5D 90 26 C0 2B A5 87 25 FE 81 43 EB E3 33 A9 09   // ].&.+..%..C..3..
+                BD 19 F7 23 AB EF B8 D8 BF 5E 9C F3 CD 34 DA FC   // ...#.....^...4..
+                ED D8 3C AD 18 72 C3 E0 94 04 BC 19 77 22 EB 88   // ..<..r......w"..
+                37 CA AE 1A 9F AE F3 7C 7E 0E EB DD 88 C3 C5 E7   // 7......|~.......
+                EA F6 ED FD D2 35 A4 5D 79 67 5F 59 D9 68 A9 26   // .....5.]yg_Y.h.&
+                46 6E 02 F1 FF E4 32 C8 BC EC 0E 84 B8 57 FA F1   // Fn....2......W..
+                5E A9 24 25 D7 6E 82 DC 9C 22 AB 3E E4 F0 52 C5 ) // ^.$%.n...".>..R.
+
+Oraz dodatkowo zmienione zostało MVID:
+MVID: {BC84F32F-B08B-4853-9A83-8A83FFD21294}
+
+3.11:
+Wyjątek nieobsłużony: System.IO.FileLoadException: Nie można załadować pliku lub zestawu 'ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e56745419d9da64e' lub jednej z jego zależności. Walidacja silnej nazwy nie powiodła się. (Wyjątek od HRESULT: 0x8013141A) ---> System.Security.SecurityException: Walidacja silnej nazwy nie powiodła się. (Wyjątek od HRESULT: 0x8013141A)
+   --- Koniec śladu stosu wyjątków wewnętrznych ---
+   w ApLab2.Program.Main(String[] args)
+
+3.12:
+Po wywołaniu komendy  sn –Vr ClassLibrary1.dll:
+Verification entry added for assembly 'ClassLibrary1,E56745419D9DA64E'
+Po uruchomieniu ApLab2.exe:
+Wersja 1.0.0.0
+
+4. Ćwiczenie 4
+4.5:
+Wersja: 1.1.0.0
+
+4.9:
+Wyjątek nieobsłużony: System.IO.FileLoadException: Nie można załadować pliku lub zestawu 'ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e56745419d9da64e' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)
+   w ApLab2.Program.Main(String[] args)
+
+4.11:
+Wyjątek nieobsłużony: System.IO.FileLoadException: Nie można załadować pliku lub zestawu 'ClassLibrary1, Version=1.1.0.0, Culture=neutral, PublicKeyToken=e56745419d9da64e' lub jednej z jego zależności. Zlokalizowana definicja manifestu zestawu nie odpowiada odwołaniu do zestawu. (Wyjątek od HRESULT: 0x80131040)
+   w ApLab2.Program.Main(String[] args)
+
+4.12:
+Z10:
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly extern ClassLibrary1
+{
+  .publickeytoken = (E5 67 45 41 9D 9D A6 4E )                         // .gEA...N
+  .ver 1:0:0:0
+}
+.assembly ApLab2
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- The following custom attribute is added automatically, do not uncomment -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 06 41 70 4C 61 62 32 00 00 )                // ...ApLab2..
+  .custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 06 41 70 4C 61 62 32 00 00 )                // ...ApLab2..
+  .custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = ( 01 00 12 43 6F 70 79 72 69 67 68 74 20 C2 A9 20   // ...Copyright .. 
+                                                                                                  20 32 30 32 34 00 00 )                            //  2024..
+  .custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 35 64 64 62 39 63 36 33 2D 66 65 31 34   // ..$5ddb9c63-fe14
+                                                                                                  2D 34 63 33 32 2D 62 38 34 63 2D 39 65 37 31 62   // -4c32-b84c-9e71b
+                                                                                                  31 62 36 37 65 62 35 00 00 )                      // 1b67eb5..
+  .custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 1C 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+                                                                                                        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 37 2E 32 01   // ,Version=v4.7.2.
+                                                                                                        00 54 0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73   // .T..FrameworkDis
+                                                                                                        70 6C 61 79 4E 61 6D 65 14 2E 4E 45 54 20 46 72   // playName..NET Fr
+                                                                                                        61 6D 65 77 6F 72 6B 20 34 2E 37 2E 32 )          // amework 4.7.2
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module ApLab2.exe
+// MVID: {C0207E98-D1E9-4932-910A-36202354A48E}
+.imagebase 0x00400000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00020003    //  ILONLY 32BITREQUIRED
+// Image base: 0x05F80000
+
+Z11:
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly extern ClassLibrary1
+{
+  .publickeytoken = (E5 67 45 41 9D 9D A6 4E )                         // .gEA...N
+  .ver 1:1:0:0
+}
+.assembly ApLab2
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- The following custom attribute is added automatically, do not uncomment -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 06 41 70 4C 61 62 32 00 00 )                // ...ApLab2..
+  .custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 06 41 70 4C 61 62 32 00 00 )                // ...ApLab2..
+  .custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = ( 01 00 12 43 6F 70 79 72 69 67 68 74 20 C2 A9 20   // ...Copyright .. 
+                                                                                                  20 32 30 32 34 00 00 )                            //  2024..
+  .custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 35 64 64 62 39 63 36 33 2D 66 65 31 34   // ..$5ddb9c63-fe14
+                                                                                                  2D 34 63 33 32 2D 62 38 34 63 2D 39 65 37 31 62   // -4c32-b84c-9e71b
+                                                                                                  31 62 36 37 65 62 35 00 00 )                      // 1b67eb5..
+  .custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 1C 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+                                                                                                        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 37 2E 32 01   // ,Version=v4.7.2.
+                                                                                                        00 54 0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73   // .T..FrameworkDis
+                                                                                                        70 6C 61 79 4E 61 6D 65 14 2E 4E 45 54 20 46 72   // playName..NET Fr
+                                                                                                        61 6D 65 77 6F 72 6B 20 34 2E 37 2E 32 )          // amework 4.7.2
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module ApLab2.exe
+// MVID: {0485CB51-851B-4359-8577-B081A7BDC19A}
+.imagebase 0x00400000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00020003    //  ILONLY 32BITREQUIRED
+// Image base: 0x05F80000
+
+Różnica w manifestach występuje w wersji ClassLibrary1. W Z10 jest wersja 1:0:0:0, a w Z11 wersja 1:1:0:0.
+
+4.15:
+Wyniki wywołania ApLab2.exe:
+Z10:
+Wersja: 1.0.0.0
+
+Z11:
+Wersja: 1.0.0.0
+
+5. Ćwiczenie 5:
+5.3:
+Uruchomienie z obu lokalizacji wyrzuca następujące błędy:
+Wyjątek nieobsłużony: System.IO.FileNotFoundException: Nie można załadować pliku lub zestawu 'ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e56745419d9da64e' lub jednej z jego zależności. Nie można odnaleźć określonego pliku.
+   w ApLab2.Program.Main(String[] args)
+------------------------------------------------------------------------------------
+Wyjątek nieobsłużony: System.IO.FileNotFoundException: Nie można załadować pliku lub zestawu 'ClassLibrary1, Version=1.1.0.0, Culture=neutral, PublicKeyToken=e56745419d9da64e' lub jednej z jego zależności. Nie można odnaleźć określonego pliku.
+   w ApLab2.Program.Main(String[] args)
+5.4:
+Assembly successfully added to the cache - w przypadku obu bibliotek
+
+5.5:
+Biblioteki znajdują się pod ścieżką:
+C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ClassLibrary1
+W nowszych wersjach .NET Framework w tym miejscu instalowane są biblioteki.
+
+5.7:
+Z10:
+Wersja: 1.0.0.0
+Z11:
+Wersja: 1.1.0.0
+
+Aplikacja uruchamia się poprawnie po usunięciu bibliotek z obu katalogów.
+
+6. Ćwiczenie 6:
+6.5:
+Po uruchomieniu ApLab2.exe zostało wypisane:
+Wersja: 1.0.0.0
