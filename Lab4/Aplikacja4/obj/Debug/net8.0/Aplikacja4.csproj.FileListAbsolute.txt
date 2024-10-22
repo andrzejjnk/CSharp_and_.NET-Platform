@@ -1,0 +1,14 @@
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\bin\Debug\net8.0\Aplikacja4.exe
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\bin\Debug\net8.0\Aplikacja4.deps.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\bin\Debug\net8.0\Aplikacja4.runtimeconfig.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\bin\Debug\net8.0\Aplikacja4.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\bin\Debug\net8.0\Aplikacja4.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\refint\Aplikacja4.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\Aplikacja4.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab4\Aplikacja4\obj\Debug\net8.0\ref\Aplikacja4.dll
