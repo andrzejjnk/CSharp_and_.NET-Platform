@@ -1,0 +1,14 @@
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\bin\Debug\net8.0\Aplikacja5.exe
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\bin\Debug\net8.0\Aplikacja5.deps.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\bin\Debug\net8.0\Aplikacja5.runtimeconfig.json
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\bin\Debug\net8.0\Aplikacja5.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\bin\Debug\net8.0\Aplikacja5.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\refint\Aplikacja5.dll
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.pdb
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\Aplikacja5.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\9 semestr\C# i platforma .NET\Lab5\Aplikacja5\obj\Debug\net8.0\ref\Aplikacja5.dll
