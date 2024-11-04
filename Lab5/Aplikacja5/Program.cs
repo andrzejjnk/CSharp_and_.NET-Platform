@@ -11,15 +11,61 @@ namespace Aplikacja5
     {
         static void Main(string[] args)
         {
-            //Program.Task1(5);
-            //Program.Task2();
-            //Program.Task3();
-            //Program.Task4();
-            //Program.Task5();
-            //Program.Task6();
-            //Program.Task7();
-            Program.Task8();
-            //Program.Task9();
+            while (true)
+            {
+                Console.WriteLine("Select a task to run (1-9):");
+                string input = Console.ReadLine();
+
+                if (input.Equals("exit", StringComparison.OrdinalIgnoreCase))
+                {
+                    break;
+                }
+
+                if (int.TryParse(input, out int taskNumber))
+                {
+                    switch (taskNumber)
+                    {
+                        case 1:
+                            Console.WriteLine("Please enter a height for triangle patterns:");
+                            string input_height = Console.ReadLine();
+                            Int32.TryParse(input_height, out int height);
+                            Program.Task1(height);
+                            break;
+                        case 2:
+                            Program.Task2();
+                            break;
+                        case 3:
+                            Program.Task3();
+                            break;
+                        case 4:
+                            Program.Task4();
+                            break;
+                        case 5:
+                            Program.Task5();
+                            break;
+                        case 6:
+                            Program.Task6();
+                            break;
+                        case 7:
+                            Program.Task7();
+                            break;
+                        case 8:
+                            Program.Task8();
+                            break;
+                        case 9:
+                            Program.Task9();
+                            break;
+                        default:
+                            Console.WriteLine("Invalid task number. Please select from 1 to 9.");
+                            break;
+
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Inavlid input! Please enter a task number or 'exit' to quit.");
+                }
+            }
         }
 
         static void Task1(int height)
@@ -271,6 +317,56 @@ namespace Aplikacja5
 
         static void Task9()
         {
+            BookLibrary library = BookLibrary.Instance;
+
+            Book book1 = new Book("C Language", "Stephen Prata", 30, "ISBN1", DateTime.Now);
+            Book book2 = new Book("C# in Depth", "Jon Skeet", 25, "ISBN2", DateTime.Now);
+            Book book3 = new Book("Symfonia C++", "Jerzy Grembosz", 10, "ISBN3", DateTime.Now);
+            Book book4 = new Book("C++ Language", "Stephen Prata", 45, "ISBN4", DateTime.Now);
+
+            Console.WriteLine("Dodanie książek do biblioteki:");
+            library.AddBook(book1);
+            library.AddBook(book2); 
+            library.AddBook(book3);
+            library.AddBook(book4);
+            Console.WriteLine("Wyświetlenie biblioteki:");
+            library.ListAllBooks();
+            Console.WriteLine("Usunięcie książki z biblioteki:");
+            library.Remove(book2.ISBN);
+            Console.WriteLine("Wyświetlenie biblioteki:");
+            library.ListAllBooks();
+            Console.WriteLine("=======================\nWyszukiwanie książek:\n=======================");
+            Console.WriteLine("Wyszukiwanie książek po ISBN:");
+            Book books_isbn = library.FindBookByISBN("ISBN1");
+            Console.WriteLine(books_isbn);
+            Console.WriteLine("Wyszukiwanie książek po autorze:");
+            List<Book> books_author = library.FindByAuthor("Stephen Prata");
+            if (books_author.Count > 0) 
+            {
+                foreach (Book book in books_author) 
+                {
+                    Console.WriteLine(book);
+                }
+            }
+            Console.WriteLine("Wyszukiwanie książek po tytule:");
+            List<Book> books_title = library.FindByTitle("C++");
+            if (books_title.Count > 0)
+            {
+                foreach (Book book in books_title)
+                {
+                    Console.WriteLine(book);
+                }
+            }
+            Console.WriteLine("Wyszukiwanie książek po cenie:");
+            List<Book> book_price = library.FindByPrice(10);
+            if (book_price.Count > 0)
+            {
+                foreach (Book book in book_price)
+                {
+                    Console.WriteLine(book);
+                }
+            }
+
 
         }
     }
@@ -378,22 +474,18 @@ namespace Aplikacja5
         int c;
         int l;
 
-        public Matrix(int rows, int columns)
-        {
-            l = rows;
-            c = columns;
-            _matrix = new int[l * c];
-        }
-
-        public Matrix(int rows, int columns, int[] initialValues)
+        public Matrix(int rows, int columns, int[] initialValues = null)
         {
             l = rows;
             c = columns;
             _matrix = new int[l * c];
 
-            for (int index = 0; index < _matrix.Length; index++)
+            if (initialValues != null)
             {
-                _matrix[index] = index < initialValues.Length ? initialValues[index] : 0;
+                for (int index = 0; index < _matrix.Length; index++)
+                {
+                    _matrix[index] = index < initialValues.Length ? initialValues[index] : 0;
+                }
             }
         }
 
@@ -442,9 +534,24 @@ namespace Aplikacja5
             {
                 for (int c = 0; c < columns; c++)
                 {
-                    int value1 = (l < matrix1.l && c < matrix1.c) ? matrix1._matrix[l * matrix1.c + c] : 0;
-                    int value2 = (l < matrix2.l && c < matrix2.c) ? matrix2._matrix[l * matrix2.c + c] : 0;
-
+                    int value1;
+                    if (l < matrix1.l && c < matrix1.c)
+                    {
+                        value1 = matrix1._matrix[l * matrix1.c + c];
+                    }
+                    else
+                    {
+                        value1 = 0;
+                    }
+                    int value2;
+                    if (l < matrix2.l && c < matrix2.c)
+                    {
+                        value2 = matrix2._matrix[l * matrix2.c + c];
+                    }
+                    else
+                    {
+                        value2 = 0;
+                    }
                     result.AddElem(l, c, value1 + value2);
                 }
             }
@@ -459,19 +566,7 @@ namespace Aplikacja5
         int c;
         int l;
 
-        public Matrix2D(int rows, int columns)
-        {
-            l = rows;
-            c = columns;
-            _matrix = new int[l][];
-
-            for (int i = 0; i < l; i++)
-            {
-                _matrix[i] = new int[c];
-            }
-        }
-
-        public Matrix2D(int rows, int columns, int[] initialValues)
+        public Matrix2D(int rows, int columns, int[] initialValues = null)
         {
             l = rows;
             c = columns;
@@ -481,9 +576,17 @@ namespace Aplikacja5
             for (int i = 0; i < l; i++)
             {
                 _matrix[i] = new int[c];
+
                 for (int j = 0; j < c; j++)
                 {
-                    _matrix[i][j] = index < initialValues.Length ? initialValues[index++] : 0;
+                    if (initialValues != null && index < initialValues.Length)
+                    {
+                        _matrix[i][j] = initialValues[index++];
+                    }
+                    else
+                    {
+                        _matrix[i][j] = 0;
+                    }
                 }
             }
         }
@@ -515,12 +618,28 @@ namespace Aplikacja5
             {
                 for (int c = 0; c < maxColumns; c++)
                 {
-                    int value1 = (l < m1.l && c < m1.c) ? m1._matrix[l][c] : 0;
-                    int value2 = (l < m2.l && c < m2.c) ? m2._matrix[l][c] : 0;
-
+                    int value1;
+                    if (l < m1.l && c < m1.c)
+                    {
+                        value1 = m1._matrix[l][c];
+                    }
+                    else
+                    {
+                        value1 = 0;
+                    }
+                    int value2;
+                    if (l < m2.l && c < m2.c)
+                    {
+                        value2 = m2._matrix[l][c];
+                    }
+                    else
+                    {
+                        value2 = 0;
+                    }
                     result._matrix[l][c] = value1 + value2;
                 }
             }
+
 
             return result;
         }
@@ -535,12 +654,28 @@ namespace Aplikacja5
             {
                 for (int c = 0; c < maxColumns; c++)
                 {
-                    int value1 = (l < m1.l && c < m1.c) ? m1._matrix[l][c] : 0;
-                    int value2 = (l < m2.l && c < m2.c) ? m2._matrix[l][c] : 0;
-
+                    int value1;
+                    if (l < m1.l && c < m1.c)
+                    {
+                        value1 = m1._matrix[l][c];
+                    }
+                    else
+                    {
+                        value1 = 0;
+                    }
+                    int value2;
+                    if (l < m2.l && c < m2.c)
+                    {
+                        value2 = m2._matrix[l][c];
+                    }
+                    else
+                    {
+                        value2 = 0;
+                    }
                     result._matrix[l][c] = value1 - value2;
                 }
             }
+
 
             return result;
         }
@@ -548,11 +683,11 @@ namespace Aplikacja5
 
     public class Book
     {
-        string _title;
-        string _author;
-        double _price;
-        readonly string _isbn;
-        DateTime _date;
+        public string _title;
+        public string _author;
+        public double _price;
+        private readonly string _isbn;
+        public DateTime _date;
 
         public Book(string title, string author, double price, string isbn, DateTime date)
         {
@@ -562,5 +697,124 @@ namespace Aplikacja5
             _isbn = isbn;
             _date = date;
         }
+
+        public string ISBN => _isbn;
+        public override string ToString() => $"{_title} by {_author}, ISBN: {ISBN}, Price: {_price:C}";
+    }
+
+    public class BookLibrary
+    {
+        private static readonly BookLibrary _instance = new BookLibrary();
+        private readonly List<Book> _books = new List<Book>();
+        private BookLibrary() { }
+        public static BookLibrary Instance => _instance;
+
+        public void AddBook(Book new_book) 
+        {
+            if (_books.Any(book => book.ISBN == new_book.ISBN))
+            {
+                Console.WriteLine("Book with the same ISBN already exists.");
+            }
+            else
+            {
+                _books.Add(new_book);
+                Console.WriteLine($"Book {new_book} added successfully.");
+            }
+        }
+
+        public void Remove(string isbn)
+        {
+            var book = _books.FirstOrDefault(b => b.ISBN == isbn);
+            if (book != null)
+            {
+                _books.Remove(book);
+                Console.WriteLine($"Book: {book} removed.");
+            }
+            else
+            {
+                Console.WriteLine("Book not found in library.");
+            }
+        }
+
+        public void ListAllBooks()
+        {
+            if (_books.Count == 0)
+                Console.WriteLine("Library is empty!");
+            else
+                _books.ForEach(book => Console.WriteLine(book));
+        }
+
+        public Book FindBookByISBN(string isbn)
+        {
+            foreach (Book book in _books)
+            {
+                if (book.ISBN == isbn)
+                {
+                    return book;
+                }
+            }
+
+            Console.WriteLine($"Book with specified ISBN {isbn} does not exist in library!");
+            return null;
+        }
+
+        public List<Book> FindByAuthor(string author)
+        {
+            List<Book> foundBooks = new List<Book>();
+
+            foreach (Book book in _books)
+            {
+                if (book._author.Equals(author, StringComparison.OrdinalIgnoreCase))
+                {
+                    foundBooks.Add(book);
+                }
+            }
+
+            if (foundBooks.Count == 0)
+            {
+                Console.WriteLine("Not found any authors books!");
+            }
+
+            return foundBooks;
+        }
+
+        public List<Book> FindByTitle(string title)
+        {
+            List<Book> foundBooks = new List<Book>();
+            foreach (Book book in _books)
+            {
+                if (book._title.Contains(title, StringComparison.OrdinalIgnoreCase))
+                {
+                    foundBooks.Add(book);
+                }
+            }
+
+            if (foundBooks.Count == 0)
+            {
+                Console.WriteLine("Not found any books with specified title!");
+            }
+
+            return foundBooks;
+        }
+
+        public List<Book> FindByPrice(double price)
+        {
+            List<Book> foundBooks = new List<Book>();
+            foreach (Book book in _books)
+            {
+                if (book._price.Equals(price))
+                {
+                    foundBooks.Add(book);
+                }
+            }
+
+            if (foundBooks.Count == 0)
+            {
+                Console.WriteLine("Not found any books with specified price!");
+            }
+
+            return foundBooks;
+        }
+
     }
 }
