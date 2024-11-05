@@ -6,7 +6,7 @@ namespace Aplikacja6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Tasks 4 and 5 have no code to run, only implementation in classes is provided at the bottom of this file. ");
+            Console.WriteLine("Tasks 4 and 5 have no code to run, only implementation of the classes is provided at the bottom of this file. ");
             while (true)
             {
                 Console.WriteLine("Select a task to run (1-3):");
