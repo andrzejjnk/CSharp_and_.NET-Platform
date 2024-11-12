@@ -1,0 +1,15 @@
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\bin\Debug\net8.0\Aplikacja7.exe
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\bin\Debug\net8.0\Aplikacja7.deps.json
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\bin\Debug\net8.0\Aplikacja7.runtimeconfig.json
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\bin\Debug\net8.0\Aplikacja7.dll
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\bin\Debug\net8.0\Aplikacja7.pdb
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.AssemblyInfoInputs.cache
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.AssemblyInfo.cs
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.csproj.CoreCompileInputs.cache
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.sourcelink.json
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.dll
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\refint\Aplikacja7.dll
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.pdb
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\Aplikacja7.genruntimeconfig.cache
+C:\Users\arkre\OneDrive\Pulpit\CSharp_and_.NET-Platform\Lab7\Aplikacja7\obj\Debug\net8.0\ref\Aplikacja7.dll
