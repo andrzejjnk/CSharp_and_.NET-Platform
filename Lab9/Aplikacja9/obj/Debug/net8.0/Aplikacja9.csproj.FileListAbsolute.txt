@@ -1,0 +1,15 @@
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\bin\Debug\net8.0\Aplikacja9.exe
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\bin\Debug\net8.0\Aplikacja9.deps.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\bin\Debug\net8.0\Aplikacja9.runtimeconfig.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\bin\Debug\net8.0\Aplikacja9.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\bin\Debug\net8.0\Aplikacja9.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.sourcelink.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\refint\Aplikacja9.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\Aplikacja9.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab9\Aplikacja9\obj\Debug\net8.0\ref\Aplikacja9.dll
