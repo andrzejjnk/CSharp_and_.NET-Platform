@@ -1,0 +1,15 @@
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\bin\Debug\net8.0\Aplikacja10.exe
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\bin\Debug\net8.0\Aplikacja10.deps.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\bin\Debug\net8.0\Aplikacja10.runtimeconfig.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\bin\Debug\net8.0\Aplikacja10.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\bin\Debug\net8.0\Aplikacja10.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.sourcelink.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\refint\Aplikacja10.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\Aplikacja10.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab10\Aplikacja10\obj\Debug\net8.0\ref\Aplikacja10.dll
