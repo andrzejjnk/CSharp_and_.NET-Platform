@@ -1,0 +1,15 @@
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\bin\Debug\net8.0\Aplikacja12.exe
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\bin\Debug\net8.0\Aplikacja12.deps.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\bin\Debug\net8.0\Aplikacja12.runtimeconfig.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\bin\Debug\net8.0\Aplikacja12.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\bin\Debug\net8.0\Aplikacja12.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.sourcelink.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\refint\Aplikacja12.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\Aplikacja12.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab12\Aplikacja12\obj\Debug\net8.0\ref\Aplikacja12.dll
