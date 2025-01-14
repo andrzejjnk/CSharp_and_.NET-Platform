@@ -1,0 +1,15 @@
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.AssemblyInfo.cs
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.sourcelink.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\bin\Debug\net8.0\Aplikacja13.exe
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\bin\Debug\net8.0\Aplikacja13.deps.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\bin\Debug\net8.0\Aplikacja13.runtimeconfig.json
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\bin\Debug\net8.0\Aplikacja13.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\bin\Debug\net8.0\Aplikacja13.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\refint\Aplikacja13.dll
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.pdb
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\Aplikacja13.genruntimeconfig.cache
+C:\Users\Andrzej\Desktop\CSharp_and_.NET-Platform\Lab13\Aplikacja13\obj\Debug\net8.0\ref\Aplikacja13.dll
